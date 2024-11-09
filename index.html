@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <label for="oppgave1">Oppgave 1 / Legge sammen to tekster</label>
+    <p id="oppgave1"></p>
+    
+    <label for="riktigTall1">Oppgave 2 / Sjekke om tallet er positivt</label>
+    <input type="number" id="riktigTall1">
+    <button id="knapp1" onclick="knappPhonk()">Sjekk her</button>
+    <p id="oppgave2"></p>
+
+    <label for="oppgave3">Oppgave 3 / Sjekke hvilket tall som er størst av to forskjellige tall</label>
+    <input type="number" id="number2">
+    <input type="number" id="number3">
+    <button onclick="knappPhonk1()">Trykk her</button>
+    <p id="oppgave3"></p>
+    
+    <label for="oppgave4">Oppgave 4 / Sjekke hvilket tall som er størst av tre forskjellige tall</label>
+    <input type="number" id="number4">
+    <input type="number" id="number5">
+    <input type="number" id="number6">
+    <button onclick="knappPhonk2()">Trykk her</button>
+    <p id="oppgave4"></p>
+    
+    <label for="oppgave5">Oppgave 5 / Sjekke om en elev besto eller ikke</label>
+    <input type="text" id="navn">
+    <input type="number" id="score" max="100" min="0">
+    <button onclick="knappPhonk3()">Trykk her</button>
+    <p id="oppgave5"></p>
+
+    <label for="oppgave6">Oppgave 6 / Sjekke hvilken ukedag det er</label>
+    <input type="number" id="ukeDag" max="7" min="1">
+    <button onclick="knappPhonk4()">Trykk her</button>
+    <p id="oppgave6"></p>
+    
+    <label for="oppgave7">Oppgave 7 / Konvertere Celsius til Fahrenheit</label>
+    <input type="number" id="temp">
+    <button onclick="knappPhonk5()">Trykk her</button>
+    <p id="oppgave7"></p>
+
+    <script src="./index.js"></script>
+</body>
+</html>
